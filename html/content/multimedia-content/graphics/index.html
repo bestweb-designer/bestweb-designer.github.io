@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Графика</title>  
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header></header>
@@ -15,8 +16,66 @@
         </nav>
         <main>
             <h1>Графика</h1>
-            <div class="code"></div>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <canvas id="my-canvas">
+                Вы видите этот текст, если ваш браузер не поддерживает HTML5.
+                </canvas>       
+                
+            </div>     
+            <h2>Код:</h2>
+            <div class="code">
+                <p>HTML</p>
+                <img src="code1.jpg" alt="Canvas-html">
+                <p>CSS</p>
+                <img src="code4.jpg" alt="Canvas-css">
+                <p>JavaScript</p>
+                <img src="code5.jpg" alt="Canvas-js">
+                <p>Элемент canvas является контейнером для графики, которая задается с помощью JavaScript.</p>
+            </div>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization"> 
+                <svg id="my-svg">
+                    <circle id="my-circle"/>
+                </svg>
+            </div>     
+            <h2>Код:</h2>
+            <div class="code">
+                <p>HTML</p>
+                <img src="code2.jpg" alt="svg-html">
+                <p>CSS</p>
+                <img src="code3.jpg" alt="svg-css">
+                <p>Элемент svg является контейнером для масштабируемой векторной графики.</p>
+            </div>
+            <h2>Сравнение canvas и svg</h2>
+            <table>
+                <tr>
+                    <th>Canvas</th>
+                    <th>SVG</th>
+                </tr>
+                <tr>
+                    <td>Зависит от разрешения</td>
+                    <td>Не зависит от разрешения</td>
+                </tr>
+                <tr>
+                    <td>Не поддерживает обработчики событий</td>
+                    <td>Поддерживает обработчики событий</td>
+                </tr>
+                <tr>
+                    <td>Плохие возможности рендеринга текста</td>
+                    <td>Лучше всего подходит для приложений с большими областями рендеринга (Google Maps)</td>
+                </tr>
+                <tr>
+                    <td>Можно сохранить полученное изображение как .png или .jpg</td>
+                    <td>При сложном рисунке медленный рендеринг</td>
+                </tr>
+                <tr>
+                    <td>Хорошо подходит для игр с интенсивной графикой</td>
+                    <td>Не подходит для игровых приложений</td>
+                </tr>
+            </table>
         </main>
         <footer></footer>
+        <script src="canvas-draw.js"></script>
     </body>
 </html>

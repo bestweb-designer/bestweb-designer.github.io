@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контейнер для изображений различного разрешения</title>  
+    </head>
+    <body>
+        <header></header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Изображения</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Контейнер для изображений различного разрешения</h1>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <picture>
+                <source media="(min-width:650px)" srcset="img1.jpg">
+                <source media="(min-width:435px)" srcset="img2.jpg">
+                <img src="img3.jpg" alt="Картинка размером менее 435px">
+                </picture>
+            </div>     
+            <h2>Код:</h2>
+            <div class="code">
+                <img src="code1.jpg" alt="Контейнер для изображений различного разрешения">
+                <p>При разрешении более 650px отображается первое изображение.</p>
+                <p>При разрешении от 435px до 650px отображается второе изображение.</p>
+                <p>При разрешении менне 435px отображается третье изображение.</p>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
