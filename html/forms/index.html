@@ -16,6 +16,167 @@
         </nav>
         <main>
             <h1>Формы</h1>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <form action="javascript:void(0)" method="POST">
+                    <fieldset>
+                        <legend>Текстовые поля ввода</legend>
+                        <label for="email">email</label>
+                        <input id="email" type="email" name="email">
+                        <br>
+                        <label for="password">password</label>
+                        <input id="password" type="password" name="password">
+                        <br>
+                        <label for="search">search</label>
+                        <input id="search" type="search" name="search">
+                        <br>
+                        <label for="tel">tel</label>
+                        <input id="tel" type="tel" name="tel">
+                        <br>
+                        <label for="text">text</label>
+                        <input id="text" type="text" name="text">
+                        <br>
+                        <label for="url">url</label>
+                        <input id="url" type="url" name="url">
+                        <br>
+                        <label for="textarea">textarea</label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" name="textarea"></textarea> 
+                    </fieldset>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+
+                <form action="javascript:void(0)" method="GET">
+                    <fieldset>
+                        <legend>Checkboxes</legend>
+                        <label for="chekbox1">Checkbox 1</label>
+                        <input id="chekbox1" type="checkbox" name="checkbox1" value="checkbox1">
+                        <br>
+                        <label for="checkbox2">Checkbox 2</label>
+                        <input id="checkbox2" type="checkbox" name="checkbox2" value="checkbox2">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Radio Buttons</legend>
+                        <label for="radio1">Radio 1</label>
+                        <input id="radio1" type="radio" name="radio" value="radio1">
+                        <br>
+                        <label for="radio2">Radio 2</label>
+                        <input id="radio2" type="radio" name="radio" value="radio2">
+                    </fieldset>
+                    <input type="submit">
+                    <br>
+                </form>
+
+                <form action="javascript:void(0)" method="GET">
+                    <fieldset>
+                        <legend>Выпадающий список</legend>
+                        <label for="select">select</label>
+                        <select name="select" id="select">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        </select>
+                        <br>
+                        <label for="id-list">list</label>
+                        <input list="id-list" name="list">
+                        <datalist id="id-list">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                        </datalist>   
+                    </fieldset>
+                    <input type="submit">
+                </form>
+
+                <form action="javascript:void(0)" method="GET">
+                    <fieldset>
+                        <legend>Поля ввода времени</legend>
+                        <label for="date">date</label>
+                        <input id="date" type="date" name="date">
+                        <br>
+                        <label for="datetime-local">datetime-local</label>
+                        <input id="datetime-local" type="datetime-local" name="datetime-local">
+                        <br>
+                        <label for="month">month</label>
+                        <input id="month" type="month" name="month">
+                        <br>
+                        <label for="time">time</label>
+                        <input id="time" type="time" name="time">
+                        <br>
+                        <label for="week">week</label>
+                        <input id="week" type="week" name="week">
+                    </fieldset>
+                    <input type="submit">
+                </form>
+
+
+
+                <form action="javascript:void(0)" method="GET">
+                    <fieldset>
+                        <legend>Остальные поля ввода</legend>
+                        <label for="file">file</label>
+                        <input id="file" type="file" name="file">
+                        <br>
+                        <label for="hidden">hidden</label>
+                        <input id="hidden" type="hidden" name="hidden" value="hidden">
+                        <br>
+                        <label for="color">color</label>
+                        <input id="color" type="color" name="color">
+                        <br>
+                        <label for="number">number</label>
+                        <input id="number" type="number" name="number">
+                        <br>
+                        <label for="range">range</label>
+                        <input id="range" type="range" name="range" min="0" max="100">
+                    </fieldset>
+                    <input type="image" src="submit-image.jpg" alt="submit" title="submit">
+                </form>
+
+<form action="javascript:void(0)" method="GET">
+    <fieldset>
+        <legend>Примененение различных атрибут</legend>
+        <label for="text-readonly">readonly</label>
+        <input id="text-readonly" type="text" readonly name="text-readonly">
+        <br>
+        <label for="text-disabled">disabled</label>
+        <input id="text-disabled" type="text" disabled name="text-disabled" value="six">
+        <br>
+        <label for="text-maxlength">maxlength</label>
+        <input id="text-maxlength" type="text" maxlength="5" name="text-maxlength">
+        <br>
+        <label for="text-autofocus">autofocus</label>
+        <input id="text-autofocus" type="text" autofocus name="text-autofocus">
+        <br>
+        <label for="file-multiple">multiple</label>
+        <input id="file-multiple" type="file" multiple name="file-multiple">
+        <br>
+        <label for="text-pattern">pattern</label>
+        <input id="text-pattern" type="text" pattern="[1-9]{2}" name="text-pattern">
+        <br>
+        <label for="text-placeholder">placeholder</label>
+        <input id="text-placeholder" type="text" placeholder="your-name" name="text-placeholder">
+        <br>
+        <label for="text-required">required</label>
+        <input id="text-required" type="text" required name="text-required">
+        <br>
+        <label for="nuber-step">step</label>
+        <input id="nuber-step" type="number" step="2" name="nuber-step">
+    </fieldset>
+    <input type="submit">
+</form>
+<p>Атрибут novalidate применяется в случае использования стороннего обработчика форм.</p>
+
+
+
+
+
+
+            </div>
+            <h2>Код:</h2>
+            <div class="code">
+                <img src="code1.jpg" alt="">
+            </div>
+            <p>В связи с отсутствием серверного обработчика форм используется пустой скрипт javascript:void(0).</p>
         </main>
         <footer>
             
