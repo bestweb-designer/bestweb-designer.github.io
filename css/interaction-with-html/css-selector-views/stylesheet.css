@@ -1,0 +1,47 @@
+.container-selector-teg {
+    background-color: rgb(63, 91, 248);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 300px;
+
+}
+
+code {
+    background-color: rgb(63, 91, 248);
+    
+    }
+.selector-class {
+    background-color: rgb(97, 235, 69);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+#selector-id {
+    background-color: rgb(212, 86, 139);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+li {
+    padding: 5px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+li[title] {
+    background-color: rgb(63, 91, 248);
+}
+
+li[title="word1"] {
+    background-color: rgb(97, 235, 69);
+}
+
+li[title~="word2"] {
+    background-color: rgb(212, 86, 139);
+}
+
+li[title|="tvorog"] {
+    background-color: rgb(178, 179, 185);
+}
