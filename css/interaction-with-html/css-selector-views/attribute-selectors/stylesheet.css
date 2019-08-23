@@ -1,0 +1,22 @@
+li {
+    padding: 5px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+li[title] {
+    background-color: rgb(63, 91, 248);
+}
+
+li[title="word1"] {
+    background-color: rgb(97, 235, 69);
+}
+
+li[title~="word2"] {
+    background-color: rgb(212, 86, 139);
+}
+
+li[title|="tvorog"] {
+    background-color: rgb(178, 179, 185);
+}
+

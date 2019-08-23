@@ -1,0 +1,26 @@
+div.link-visited-hover-active a:link {
+    color: rgb(63, 91, 248);
+}
+
+div.link-visited-hover-active a:visited {
+    color: rgb(97, 235, 69);
+}
+    
+div.link-visited-hover-active a:hover {
+    color: rgb(212, 86, 139);
+}
+
+div.link-visited-hover-active a:active {
+    color: rgb(178, 179, 185);
+}
+        
+p.ex2:first-child {
+    color: rgb(63, 91, 248);
+}
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+
