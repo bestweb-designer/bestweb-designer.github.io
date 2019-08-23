@@ -1,0 +1,5 @@
+li:nth-child(2n) {
+    background-color: #cccccc;
+    width: 300px;
+}
+

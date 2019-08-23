@@ -23,4 +23,12 @@ input:checked {
     height: 20px;
 }
 
+input:focus {
+    background-color: rgb(97, 235, 69);
+}
+
+li:nth-child(2n) {
+    background-color: #cccccc;
+    width: 300px;
+}
 

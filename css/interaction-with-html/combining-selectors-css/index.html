@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Комбинирование селекторов в CSS</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
@@ -17,6 +18,89 @@
         </nav>
         <main>
             <h1>Комбинирование селекторов в CSS</h1>
+            <h2>Селектор потомков (пробел)</h2>
+            <h3>Отображение в браузере:</h3>
+            <div class="realization">
+                <div class="ex1">
+                    <p>Первый ребенок</p>
+                    <p>Второй ребенок</p>
+                    <div>
+                        <p>Потомок</p>
+                    </div>
+                </div>
+                <p>Первый брат</p>
+                <p>Второй брат</p>  
+            </div>
+            <h3>Код:</h3>
+            <div class="code">
+                <h4>HTML</h4>
+                <img src="code1.jpg" alt="Селектор потомков (пробел) HTML">
+                <h4>CSS</h4>
+                <img src="code2.jpg" alt="Селектор потомков (пробел) CSS">
+            </div>
+
+            <h2>Селектор детей (>)</h2>
+            <h3>Отображение в браузере:</h3>
+            <div class="realization">
+                <div class="ex2">
+                    <p>Первый ребенок</p>
+                    <p>Второй ребенок</p>
+                    <div>
+                        <p>Потомок</p>
+                        <p>Потомок</p>
+                    </div>
+                </div>
+            </div>
+            <h>Код:</h3>
+            <div class="code">
+                <h4>HTML</h4>
+                <img src="code3.jpg" alt="Селектор детей (>) HTML">
+                <h4>CSS</h4>
+                <img src="code4.jpg" alt="Селектор детей (>) CSS">
+            </div>
+
+            <h2>Селектор первого младшего брата (+)</h2>
+            <h3>Отображение в браузере:</h3>
+            <div class="realization">
+                <p>Старший брат</p>
+                <div class="ex3">
+                    <p>Первый ребенок</p>
+                    <p>Второй ребенок</p>
+                </div>
+                <p>Первый младший брат</p>
+                <p>Второй младший брат</p> 
+            </div>
+            <h3>Код:</h3>
+            <div class="code">
+                <h4>HTML</h4>
+                <img src="code5.jpg" alt="Селектор первого младшего брата (+) HTML">
+                <h4>CSS</h4>
+                <img src="code6.jpg" alt="Селектор первого младшего брата (+) CSS">
+            </div>
+
+            <h2>Селектор всех младших братьев (~)</h2>
+            <h3>Отображение в браузере:</h3>
+            <div class="realization">
+                <p>Старший брат</p>
+                <div class="ex4">
+                    <p>Первый ребенок</p>
+                    <p>Второй ребенок</p>
+                    <div>
+                        <p>Потомок</p>
+                    </div>
+                </div>
+                <p>Первый младший брат</p>
+                <p>Второй младший брат</p> 
+            </div>
+            <h3>Код:</h3>
+            <div class="code">
+                <h4>HTML</h4>
+                <img src="code7.jpg" alt="Селектор всех младших братьев (~) HTML">
+                <h4>CSS</h4>
+                <img src="code8.jpg" alt="Селектор всех младших братьев (~) CSS">
+            </div>
+
+
         </main>
         <footer>
             

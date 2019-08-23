@@ -1,0 +1,16 @@
+div.ex1 p {
+    color: blue;
+}
+
+div.ex2 > p {
+    color: rgb(0, 155, 175);
+}
+
+
+div.ex3 + p {
+    color: green;
+}
+
+div.ex4 ~ p {
+    color: lightsalmon;
+}

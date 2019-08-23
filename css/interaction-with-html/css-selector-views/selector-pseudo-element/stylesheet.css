@@ -1,0 +1,22 @@
+p.ex1::first-line {
+    color: rgb(28, 202, 22);
+}
+
+p.ex1::first-letter {
+    color: green;
+    font-size: xx-large;
+}
+
+p.ex1::selection {
+    color: goldenrod;
+    background-color: rgb(172, 20, 0);
+}
+
+p.ex2::before {
+    content: "Текст, добавляемый перед << ";
+}
+
+p.ex2::after {
+    content: " >> и текст, добавляемый после." 
+}
+

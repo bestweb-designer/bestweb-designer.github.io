@@ -1,0 +1,4 @@
+div.ex4 ~ p {
+    color: lightsalmon;
+}
+
