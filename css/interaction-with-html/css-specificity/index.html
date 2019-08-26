@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Специфичность (CSS Specificity)</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
@@ -17,6 +18,25 @@
         </nav>
         <main>
             <h1>Специфичность (CSS Specificity)</h1>
+            <div>Специфичность селектора определяет приоритет применяемого стиля.
+            Специфичность селектора id=100, class=10, тега=1, body=0.</div>
+            <div>Селектор с равной специфичностью стоящий снизу перебивает селектор с равной специфичностю стоящий сверху.</div>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <p class="class1" id="id1">Параграф class1 id1.</p>
+                <p class="class1">Параграф class1</p>
+                <p>Параграф</p>
+                <div class="class1">div class1</div>
+            </div>
+            <h2>Код:</h2>
+            <div class="code">
+                <h3>HTML</h3>
+                <img src="code1.jpg" alt="Специфичность (CSS Specificity) HTML">
+                <h3>CSS</h3>
+                <img src="code2.jpg" alt="Специфичность (CSS Specificity) CSS">
+            </div>
+            <div>В данном примере порядок применен порядок убывания специфичности с верху вниз для того,
+                 чтобы продемонстрировать перебивание стилей.</div>
         </main>
         <footer>
             

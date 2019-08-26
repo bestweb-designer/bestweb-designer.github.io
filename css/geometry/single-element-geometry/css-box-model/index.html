@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS Box Model</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
@@ -16,6 +17,24 @@
         </nav>
         <main>
             <h1>CSS Box Model</h1>
+            <p>Блочная модель CSS представляет собой блок вокруг каждого элемента. 
+            Он состоит из полей, границ, отсупов и контента.</p>
+            <p>Ширина и высота определяют размеры блока контента. Общий размер 
+            блока суммируется из рамера контента, отсупов, границ и полей.</p>
+            <p>Контур (outline) в отличии от границ рисуется вне элемента и может перекрывать другой контент.
+            Он не является частью элемента, ширина и высота элемента не зависят от контура.</p>
+            <p>Свойство max-width используется для того, чтобы при ширине экрана меньше ширины блока
+            не возникало горизонтальной прокрутки.</p>
+            <p>Свойсто box-sizing: border-box позволяет задавать высоту и ширину, в которые уже вкючены
+            размеры отсупов, границ и полей.</p>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <div class="div-container">
+                    container- padding: 0, margin: 0, border: 4px solid black
+                    <div class="block">padding: 50px, margin: 50px, outline: 2px solid brown, outline-offset: 25px</div>
+                </div>
+            </div>
+            <h2>Код:</h2>
         </main>
         <footer>
             
