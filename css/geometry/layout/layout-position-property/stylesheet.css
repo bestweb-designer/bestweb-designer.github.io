@@ -1,0 +1,49 @@
+div.block-1 {
+    border: 2px solid rgb(196, 12, 12);
+    width: 500px;
+    height: 100px;
+    position: static;
+}
+
+div.block-2 {
+    border: 2px solid rgb(12, 24, 196);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 1050px;
+    top: 500px;
+}
+
+div.container-relative {
+    border: 2px solid rgb(102, 240, 240);
+    width: 600px;
+    height: 150px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+div.block-3 {
+    border: 2px solid rgb(153, 12, 196);
+    width: 500px;
+    height: 100px;
+    position: absolute;
+}
+
+div.block-4 {
+    border: 2px solid rgb(12, 196, 21);
+    width: 500px;
+    height: 120px;
+    position: fixed;
+    right: 10px;
+    top: 200px;
+}
+
+div.block-5 {
+    border: 2px solid rgb(214, 218, 21);
+    width: 500px;
+    height: 120px;
+    position: sticky;  
+    bottom: 300px;
+    right: 0;
+}
+
