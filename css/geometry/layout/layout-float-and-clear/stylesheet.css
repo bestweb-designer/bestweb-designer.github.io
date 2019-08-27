@@ -1,0 +1,14 @@
+div.block-1 {
+    border: 1px solid rgb(197, 45, 45);
+    width: 500px;
+}
+img.float {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

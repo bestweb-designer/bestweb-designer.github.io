@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Layout - float and clear</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
@@ -16,6 +17,22 @@
         </nav>
         <main>
             <h1>Layout - float and clear</h1>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <div class="block-1 clearfix">
+                    <img class="float" src="image.jpg" alt="example image">
+                    Картинка плывет вправо, текст заполняет оставшееся пространство.
+                    <br>
+                    Применен Clearfix для того, чтобы картинка не выплывала за границы блока.
+                </div>
+            </div>
+            <h2>Код:</h2>
+            <div class="code">
+                <h3>HTML</h3>
+                <img src="code1.jpg" alt="Layout - float and clear HTML">
+                <h3>CSS</h3>
+                <img src="code2.jpg" alt="Layout - float and clear CSS">
+            </div>
         </main>
         <footer>
             

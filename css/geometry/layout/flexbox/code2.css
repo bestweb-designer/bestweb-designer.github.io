@@ -1,0 +1,23 @@
+div.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(47, 47, 241, 0.521);
+    max-width: 800px;
+}
+
+div.block-1 {
+    flex-grow: 1;
+    background-color: rgba(88, 13, 173, 0.473);
+    margin: 10px;
+    padding: 20px;
+}
+
+div.block-2 {
+    flex-grow: 2;
+    background-color: rgba(88, 13, 173, 0.473);
+    margin: 10px;
+    padding: 20px;
+}
+
