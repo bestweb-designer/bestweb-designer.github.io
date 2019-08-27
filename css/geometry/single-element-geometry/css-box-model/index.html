@@ -20,7 +20,8 @@
             <p>Блочная модель CSS представляет собой блок вокруг каждого элемента. 
             Он состоит из полей, границ, отсупов и контента.</p>
             <p>Ширина и высота определяют размеры блока контента. Общий размер 
-            блока суммируется из рамера контента, отсупов, границ и полей.</p>
+            блока суммируется из рамера контента, отсупов, границ и полей. 
+            Определяется по форуле: content+2*padding+2*border+2*margin</p>
             <p>Контур (outline) в отличии от границ рисуется вне элемента и может перекрывать другой контент.
             Он не является частью элемента, ширина и высота элемента не зависят от контура.</p>
             <p>Свойство max-width используется для того, чтобы при ширине экрана меньше ширины блока
@@ -31,10 +32,16 @@
             <div class="realization">
                 <div class="div-container">
                     container- padding: 0, margin: 0, border: 4px solid black
-                    <div class="block">padding: 50px, margin: 50px, outline: 2px solid brown, outline-offset: 25px</div>
+                    <div class="block">padding: 50px, margin: 50px, border: 2px solid rgb(88, 45, 20), outline: 2px solid brown, outline-offset: 25px</div>
                 </div>
             </div>
             <h2>Код:</h2>
+            <div class="code">
+                <h3>HTML</h3>
+                <img src="code1.jpg" alt="CSS Box Model HTML">
+                <h3>CSS</h3>
+                <img src="code2.jpg" alt="CSS Box Model CSS">   
+            </div>
         </main>
         <footer>
             
