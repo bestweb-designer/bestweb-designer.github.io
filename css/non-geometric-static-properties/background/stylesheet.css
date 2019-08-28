@@ -1,0 +1,39 @@
+.block-1 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 170, 135);
+}
+
+.block-2 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-image: url(image1.jpg);
+}
+
+.block-3 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(orange, yellow);
+}
+
+.block-4 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-image: radial-gradient(orange, yellow);
+}
+
+.block-5 {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(250, 200, 126);
+    background-image: url(image2.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+
+}
+
