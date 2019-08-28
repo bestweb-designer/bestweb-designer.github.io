@@ -1,0 +1,34 @@
+.header {
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid-container-2 {
+    max-width: 600px;
+    display: grid;
+    grid-template-areas: 
+        'header header header header'
+        'nav nav nav nav'
+        'aside main main main'
+        'footer footer footer footer';
+    grid-gap: 10px;
+    background-color: rgb(50, 186, 231);
+    padding: 10px;
+}
+

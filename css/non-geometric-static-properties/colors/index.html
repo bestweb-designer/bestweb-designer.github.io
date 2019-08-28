@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Colors</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <header>
@@ -16,6 +17,46 @@
         </nav>
         <main>
             <h1>Colors</h1>
+            <h2>Отображение в браузере:</h2>
+            <div class="realization">
+                <p>Формат rgb(red, green, blue). r, g, b принимают значение от 0 до 255</p>
+                <div class="block-1">rgb(0, 255, 255)</div>
+                <p>Шестнадцатиричный формат задания цвета #rrggbb. rr, gg, bb принимают значение от 00 до ff. </p>
+                <div class="block-2">#3cb371</div>
+                <p>Формат hsl(hue - оттенок, saturation - насыщенность, lightness - светлота). <br>
+                h - это градус на цветовом круге от 0 до 360. 0 - красный, 120 - зеленый, 240 - синий. <br>
+                s - это процентное значение, где 0% означает оттенок серого, а 100% - это полный цвет. <br>
+                l - это процентное значение,  где 0% черный, 50% ни светлый, ни темный, 100% белый.</p>
+                <div class="block-3">hsl(23, 67%, 50%)</div>
+                <p>Формат rgba(red, green, blue, alpha). alpha - прозрачность, <br>
+                принимает значение от 0.0 (полностью прозрачный) до 1.0 (полностью непрозрачный).</p>
+                <div class="block-4">rgba(0, 255, 255, 0.5)</div>
+                <p>Формат hsla(hue, saturation, lightness, alpha). alpha - прозрачность, <br>
+                 принимает значение от 0.0 (полностью прозрачный) до 1.0 (полностью непрозрачный).</p>
+                <div class="block-5">hsla(23, 67%, 50%, 0.5)</div>
+            </div>
+            <h2>Код:</h2>
+            <div class="code">
+                <h3>HTML</h3>
+                <img src="code1.jpg" alt="Colors HTML">
+                <h3>CSS</h3>
+                <img src="code2.jpg" alt="Colors CSS">
+            </div>
+            <h2>Opacity - прозрачность</h2>
+            <h3>Отображение в браузере:</h3>
+            <div class="realization">
+                    <p>Opacity=1</p>
+                    <img src="image.jpg" alt="image for opacity1">
+                    <p>Opacity=0.5</p>
+                    <img class="opacity" src="image.jpg" alt="image for opacity0.5">
+            </div>
+            <h3>Код:</h3>
+            <div class="code">
+                <h3>HTML</h3>
+                <img src="code3.jpg" alt="Opacity HTML">
+                <h3>CSS</h3>
+                <img src="code4.jpg" alt="Opacity CSS">
+            </div>
         </main>
         <footer>
             

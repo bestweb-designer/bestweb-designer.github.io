@@ -1,0 +1,20 @@
+.grid-container {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    background-color: rgb(50, 186, 231);
+    padding: 10px;
+}
+
+.block {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+.block-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+

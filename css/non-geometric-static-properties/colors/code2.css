@@ -1,0 +1,26 @@
+div.block-1 {
+    width: 500px;
+    background-color: rgb(0, 255, 255);
+}
+
+div.block-2 {
+    width: 500px;
+    background-color: #3cb371;
+}
+
+div.block-3 {
+    width: 500px;
+    background-color: hsl(23, 67%, 50%);
+}
+
+div.block-4 {
+    width: 500px;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+div.block-5 {
+    width: 500px;
+    background-color: hsla(23, 67%, 50%, 0.5);
+}
+
+
