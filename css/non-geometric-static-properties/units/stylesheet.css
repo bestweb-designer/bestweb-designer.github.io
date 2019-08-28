@@ -1,0 +1,36 @@
+#text-1 {
+    font-size: 7mm;
+}
+
+#text-2 {
+    font-size: 18px;
+}
+
+#text-3 {
+    font-size: 2em;
+}
+
+#text-4 {
+    font-size: 1.5rem;
+}
+
+#text-5 {
+    font-size: 0.8vw;
+}
+
+#text-6 {
+    font-size: 3.2vh;
+}   
+
+#text-7 {
+    font-size: 1.8vmin;
+}
+
+#text-8 {
+    font-size: 2vmax;
+}
+
+#text-9 {
+    font-size: 125%;
+}
+
