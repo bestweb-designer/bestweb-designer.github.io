@@ -1,0 +1,47 @@
+div.container {
+    position: relative;
+    height: 400px;
+}
+
+div.block-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(41, 190, 27);
+    animation-name: block-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+div.block-2 {
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(17, 207, 144);
+    animation-name: block-2;
+    animation-duration: 5s;
+    animation-delay: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes block-1 {
+    0% {background-color: blue; left: 0; top: 0}
+    25% {background-color: rgb(233, 60, 60); left: 600px; top:0}
+    50% {background-color: rgb(115, 233, 60); left: 600px; top:600px;}
+    75% {background-color: rgb(233, 60, 60); left: 0; top:600px;}
+    100% {background-color: rgb(115, 233, 60); left: 0; top:0;}
+}
+
+@keyframes block-2 {
+    0% {background-color: rgb(140, 0, 255); left: 600px; top:600px;}
+    25% {background-color: rgb(177, 73, 12); left: 0px; top: 600px;}
+    50% {background-color: rgb(10, 255, 243); left: 0; top: 0;}
+    75% {background-color: rgb(177, 73, 12); left: 600px; top: 0;}
+    100% {background-color: rgb(10, 255, 243); left: 600px; top:600px;}
+}
+
+
