@@ -1,0 +1,18 @@
+body {
+    counter-reset: counter-h3;
+}
+
+.realization h3 {
+    counter-reset: counter-h4;
+}
+
+.realization h3::before {
+    counter-increment: counter-h3;
+    content: "Часть " counter(counter-h3);
+}
+
+.realization h4::before {
+    counter-increment: counter-h4;
+    content: "Глава " counter(counter-h4);
+}
+

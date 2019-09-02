@@ -1,0 +1,31 @@
+.realization {
+    position: relative;
+}
+
+#train {
+    width: 500px;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #eee;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#train:hover {
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 8px #ddd;
+    transition: 0.3s linear;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
+
+.volgograd {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(48, 48, 48);
+}
