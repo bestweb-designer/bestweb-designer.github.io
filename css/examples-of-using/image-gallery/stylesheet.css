@@ -1,0 +1,30 @@
+.image-gallery {
+    width: 300px;
+    border: 1px solid #bbb;
+    float: left;
+    box-shadow: 3px 3px 5px #bbb;
+    padding: 5px;
+    margin:  0 10px 10px 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-gallery:hover {
+    border: 1px solid #aaa;
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery .description {
+    padding: 20px;
+    text-align: center;
+}
+
