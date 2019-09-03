@@ -1,0 +1,7 @@
+.multiple-columns {
+    width: 500px;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid gray;
+}
+
