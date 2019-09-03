@@ -1,0 +1,30 @@
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(21, 199, 21);
+    border: 1px solid rgb(15, 141, 15);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #ddd;
+}
+
+.button:hover {
+    color: #ddd;
+    background-color: rgb(13, 139, 13);
+    box-shadow: 5px 5px 5px #ccc;
+    transition: 0.2s ease;
+}
+
+.button-disabled {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(21, 199, 21);
+    border: 1px solid rgb(15, 141, 15);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #ddd;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
