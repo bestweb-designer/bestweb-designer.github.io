@@ -1,0 +1,25 @@
+ul.breadcrumbs {
+    list-style-type: none;
+    padding: 5px 8px;
+    background-color: #eee;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul.breadcrumbs li {
+    display: inline;
+}
+
+ul.breadcrumbs li+li:before {
+    padding: 8px;
+    content: "/\00a0";
+}
+
+ul.breadcrumbs a {
+    text-decoration: none;
+}
+
