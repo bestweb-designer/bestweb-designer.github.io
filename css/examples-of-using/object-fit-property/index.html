@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The object-fit Property</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <header>
@@ -14,6 +15,25 @@
     </nav>
     <main>
         <h1>The object-fit Property</h1>
+        <h2>Отображение в браузере:</h2>
+        <div class="realization">
+            <p>Изображение без свойства object fit растягивается по размерам блока,
+            исходные пропорции теряются.</p>
+            <img src="sunset.jpeg" alt="sunset" id="sunset">
+            <p>cover - изображение обрезается по размерам контейнера,
+            сохраняя исходные пропорции.</p>
+            <img src="sunset.jpeg" alt="sunset" id="sunset-cover">
+            <p>contain - изображение сохраянет исходные пропорции без
+            масшатабирования, размер подстраивается под меньшее из значений ширины или высоты.</p>
+            <img src="sunset.jpeg" alt="sunset" id="sunset-contain">
+        </div>
+        <h2>Код:</h2>   
+        <div class="code">
+            <h3>HTML</h3>
+            <img src="code1.jpg" alt="The object-fit Property HTML">
+            <h3>CSS</h3>
+            <img src="code2.jpg" alt="The object-fit Property CSS">
+        </div>
     </main>
     <footer>
         
