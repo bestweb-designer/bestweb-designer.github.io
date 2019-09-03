@@ -1,0 +1,10 @@
+.resize {
+    width: 300px;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+    border: 1px solid rgb(87, 87, 87);
+    outline: 2px dotted lightskyblue;
+    outline-offset: 5px;
+}
+
