@@ -18,6 +18,41 @@
         </nav>
         <main>
             <h1>Responsive Web Design</h1>
+            <p>Адаптивный веб-дизайн делает вашу веб-страницу хорошо выглядящей на всех устройствах.</p>
+            <p>Адаптивный веб-дизайн использует только HTML и CSS.</p>
+            <h2>Viewport</h2>
+            <p>Viewport - это видимая пользователю область на веб-странице.</p>
+            <p>meta name="viewport" content="width=device-width, initial-scale=1.0"</p>
+            <p>Элемент meta viewport дает браузеру инструкции о том, 
+            как управлять размерами и масштабированием страницы.</p>
+            <p>Параметр width = device-width устанавливает ширину страницы,
+            которая соответствует ширине экрана устройства (которая зависит от устройства).</p>
+            <p>initial-scale = 1.0 устанавливает начальный уровень масштабирования 
+            при первой загрузке страницы браузером.</p>
+            <h2>Grid-View</h2>
+            <p>Адаптивное сеточное представление обычно имеет 12 столбцов и общую ширину 100%, 
+            и будет уменьшаться и расширяться при изменении размера окна браузера.</p>
+            <h2>Media Queries</h2>
+            <h3>Существует 5 основных групп устройств (5 контрольных точек):</h3>
+            <p>/* Extra small devices (phones, 600px and down) */</p>
+            <p>@media only screen and (max-width: 600px) {...} </p>
+            <p>/* Small devices (portrait tablets and large phones, 600px and up) */</p>
+            <p>@media only screen and (min-width: 600px) {...} </p>
+            <p>/* Medium devices (landscape tablets, 768px and up) */</p>
+            <p>@media only screen and (min-width: 768px) {...} </p>
+            <p>/* Large devices (laptops/desktops, 992px and up) */</p>
+            <p>@media only screen and (min-width: 992px) {...} </p>
+            <p>/* Extra large devices (large laptops and desktops, 1200px and up) */</p>
+            <p>@media only screen and (min-width: 1200px) {...}</p>
+            <h2>Изображения и видео</h2>
+            <p>Свойства max-width: 100% и height: auto позволяют сохранить пропорции изображения
+            при масштабировании, не допуская искажений.</p>
+            <h2>Background</h2>
+            <p>Свойство background-size: contain позволяет фоновому изображению сохранить
+            пропорции при масштабировании.</p>
+            <p>Свойство background-size: 100% 100% растягивает фоновое изображение на всю область.</p>
+            <p>Свойство background-size: cover позволяет фоновому изображению масштабироваться
+            на всю область, сохраняя исходные пропорции. При этом изображение может обрезаться по краям.</p>
         </main>
         <footer>
             
