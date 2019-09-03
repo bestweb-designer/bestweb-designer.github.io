@@ -1,0 +1,15 @@
+body {
+    --div-var-w: 500px;
+    --div-var-color: rgb(7, 18, 167);
+    --div-var-bd: 2px solid rgb(7, 18, 167);
+    --div-var-pd: 10px;
+}
+
+div.var {
+    width: var(--div-var-w);
+    color: var(--div-var-color);
+    border: var(--div-var-bd);
+    padding: var(--div-var-pd);
+}
+
+
