@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     color: rgb(0, 0, 0);
     background-color: rgb(231, 231, 231);
@@ -65,7 +70,7 @@ nav a:hover {
     transition: 0.3s ease;
 }
 
-.clearfix {
+nav ul {
     content: "";
     clear: both;
     display: table;
@@ -98,12 +103,17 @@ footer::after {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    * {
+        width: 100%;
+    }
+
     main {
     min-height: 300px;
     }
 
     footer {
         height: 80px;
+        font-size: 20px;
     }
 }
 
