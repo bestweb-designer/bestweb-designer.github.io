@@ -101,6 +101,10 @@ footer::after {
     main {
     min-height: 300px;
     }
+
+    footer {
+        height: 80px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
