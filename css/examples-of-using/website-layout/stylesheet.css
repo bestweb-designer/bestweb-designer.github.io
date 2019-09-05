@@ -32,17 +32,10 @@
     padding: 25px;
 }
 
-.sitename {
-    width: 250px;
-    height: 80px;
-    float: left;
-    background-color: rgb(53, 184, 92);
-    font-size: 24px;
-}
-
 .nav {
     width: 100%;
     background-color: rgb(250, 148, 108);
+    padding: 0 35%;
 }
 
 .nav ul {
@@ -62,11 +55,21 @@
     text-transform: uppercase;
 }
 
+.nav a:hover {
+    color: #eee;
+    background-color: rgb(230, 127, 87);
+}
+
 .leftside {
     width: 25%;
     height: 800px;
     background-color: rgb(62, 233, 114);
     float: left;
+}
+
+.forum {
+    text-align: center;
+    padding: 10px;
 }
 
 .main   {
@@ -76,7 +79,12 @@
 }
 
 .article {
-    padding: 20px; 
+    padding: 20px 25%; 
+}
+
+.article h2:hover {
+    color: rgb(51, 51, 51);
+    transition: 0.2s ease;
 }
 
 .article-image {
@@ -85,11 +93,21 @@
     background-color: #eee;
 }
 
+.article-image:hover {
+    background-color: #ddd;
+    transition: 0.5s ease;
+}
+
 .rightside {
     width: 25%;
     height: 800px;
     background-color: rgb(62, 233, 114);
     float: left;
+}
+
+.news {
+    text-align: center;
+    padding: 10px;
 }
 
 .footer {
@@ -107,18 +125,33 @@
 }
 
 @media screen and (max-width: 600px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .nav a {
+        border-bottom: 1px solid rgb(216, 128, 93);
+    }
+
     .leftside {
         width: 100%;
         height: 300px;
+        border-bottom: 1px solid rgb(53, 184, 92);
     }
 
     .main {
         width: 100%;
+        border-bottom: 1px solid rgb(53, 184, 92);
+    }
+
+    .article {
+        padding: 20px 15%;
     }
 
     .rightside {
         width: 100%;
         height: 300px;
+        border-bottom: 1px solid rgb(53, 184, 92);
     }
 
     .article-image {
